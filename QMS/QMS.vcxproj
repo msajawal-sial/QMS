@@ -139,7 +139,55 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Admin.cpp" />
+    <ClCompile Include="Animal.cpp" />
+    <ClCompile Include="BigAnimal.cpp" />
+    <ClCompile Include="Booked.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="ClientI.cpp" />
+    <ClCompile Include="DataPersistence.cpp" />
+    <ClCompile Include="DataPersistenceByFile.cpp" />
+    <ClCompile Include="Delievered.cpp" />
+    <ClCompile Include="DistributedToPoor.cpp" />
+    <ClCompile Include="FullyBooked.cpp" />
+    <ClCompile Include="PatiallyBooked.cpp" />
+    <ClCompile Include="QMS.cpp" />
+    <ClCompile Include="Salesman.cpp" />
+    <ClCompile Include="Share.cpp" />
+    <ClCompile Include="SlaughterDetails.cpp" />
+    <ClCompile Include="Slaughtered.cpp" />
+    <ClCompile Include="SmallAnimal.cpp" />
+    <ClCompile Include="Staff.cpp" />
+    <ClCompile Include="Time.cpp" />
+    <ClCompile Include="Unbooked.cpp" />
+    <ClCompile Include="User.cpp" />
     <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Admin.h" />
+    <ClInclude Include="Animal.h" />
+    <ClInclude Include="AnimalStatus.h" />
+    <ClInclude Include="BigAnimal.h" />
+    <ClInclude Include="Booked.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="ClientI.h" />
+    <ClInclude Include="DataPersistence.h" />
+    <ClInclude Include="DataPersistenceByFile.h" />
+    <ClInclude Include="Delievered.h" />
+    <ClInclude Include="DistributedToPoor.h" />
+    <ClInclude Include="FullyBooked.h" />
+    <ClInclude Include="PartiallyBooked.h" />
+    <ClInclude Include="QMS.h" />
+    <ClInclude Include="Salesman.h" />
+    <ClInclude Include="Share.h" />
+    <ClInclude Include="SlaughterDetails.h" />
+    <ClInclude Include="Slaughtered.h" />
+    <ClInclude Include="SmallAnimal.h" />
+    <ClInclude Include="Staff.h" />
+    <ClInclude Include="StaffMemberType.h" />
+    <ClInclude Include="Time.h" />
+    <ClInclude Include="Unbooked.h" />
+    <ClInclude Include="User.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

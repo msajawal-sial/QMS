@@ -1,9 +1,17 @@
-#include <iostream>
+#include "DataPersistenceByFile.h"
+#include "BigAnimal.h"
+#include "SmallAnimal.h"
 using namespace std;
 
+
 int main() {
-	for (int i = 0; i < 5; i++) {
-		cout << "Hello World\n";
-	}
+	QMS* qms = QMS::getIns();
+	DataPersistenceByFile DP(qms);	
+	DP.loadData();
+	qms->session();
+	DP.saveData();
+	delete qms;
+
 	return 0;
 }
+
