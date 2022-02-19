@@ -1,0 +1,25 @@
+
+Token Number:1
+Price:1000
+Weight:1
+onDisplay:0
+Status:FullyBooked
+Type:Small
+Token Number:9
+Price:1000
+Weight:80
+onDisplay:0
+Status:FullyBooked
+Type:Small
+Token Number:10
+Price:1500
+Weight:120
+onDisplay:0
+Status:FullyBooked
+Type:Small
+Token Number:11
+Price:1200
+Weight:34
+onDisplay:1
+Status:Unbooked
+Type:Small

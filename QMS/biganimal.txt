@@ -1,0 +1,36 @@
+
+Token Number:4
+Price:14000
+Weight:14
+onDisplay:1
+Status:PartiallyBooked
+Type:Big 
+No_Of_Shares_Available:5
+Token Number:5
+Price:550
+Weight:5
+onDisplay:1
+Status:Unbooked
+Type:Big 
+No_Of_Shares_Available:7
+Token Number:6
+Price:66000
+Weight:6
+onDisplay:1
+Status:Unbooked
+Type:Big 
+No_Of_Shares_Available:7
+Token Number:7
+Price:7700
+Weight:7
+onDisplay:0
+Status:FullyBooked
+Type:Big 
+No_Of_Shares_Available:0
+Token Number:8
+Price:12000
+Weight:400
+onDisplay:1
+Status:Unbooked
+Type:Big 
+No_Of_Shares_Available:7
